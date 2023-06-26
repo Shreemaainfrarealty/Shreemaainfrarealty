@@ -1,0 +1,636 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIPL Group</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+   <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" charset="utf-8"></script>-->
+    <link rel="stylesheet" href="./Style1.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+     <!-- Scripts -->    
+    <script src="https://countrygardenhk.com/js/vendor.min.js"></script>
+
+    <script>
+        function isIE() {
+            var myNav = navigator.userAgent.toLowerCase();
+            return (myNav.indexOf('msie') != -1) ? parseInt(myNav.split('msie')[1]) : false;
+        }
+        if (isIE() <= 10 && isIE()) {
+            alert('為獲得至佳效果，請以Internet Explorer 11.0 或以上瀏覽器閱讀');
+        }
+    </script>
+  </head>
+  <body>
+     <header class="header sticky">
+      <img
+        src="./skv color logo-04.png"
+        alt="sipl logo"
+        class="logo"
+      />
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-link" class="active"><a href="http://127.0.0.1:5500/Home.html">HOME</a></li>
+          <li class="navbar-link"><a href="http://127.0.0.1:5500/About%20Us.html">ABOUT US</a></li>
+          <li class="navbar-link"><a href="#">OUR PROJECTS</a>
+            <div class="dropdown">
+                <ul>
+                    <li class="dropdown1"><a href="#">REAL ESTATE</a>
+                        <div class="dropdown second">
+                            <ul>
+                                <li class="dropdown1"><a href="#">RUNNING</a>
+                                    <div class="dropdown second">
+                                        <ul>
+                                            <li class="dropdown1"><a href="http://127.0.0.1:5500/Sri%20Krishna%20Vilas.html">SRI KRISHNA VILAS</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="dropdown1"><a href="#">UPCOMING</a>
+                                    <div class="dropdown second">
+                                        <ul>
+                                            <li class="dropdown1"><a href="http://127.0.0.1:5500/Barsana.html">BARSANA</a></li>
+                                            <li class="dropdown1"><a href="http://127.0.0.1:5500/Raman%20Reti.html">RAMAN RETI</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="dropdown1"><a href="#">HOSPITALITY</a>
+                        <div class="dropdown second">
+                            <ul>
+                                <li class="dropdown1"><a href="#">RUNNING</a>
+                                    <div class="dropdown second">
+                                        <ul>
+                                            <li class="dropdown1"><a href="https://kashiresidency.com/" target="_blank">THE KASHI RESIDENCY</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="dropdown1"><a href="">UPCOMING</a>
+                                    <div class="dropdown second">
+                                        <ul>
+                                            <li class="dropdown1"><a href="http://127.0.0.1:5500/Manasi%20Ganga.html">MANSI GANGA</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+          </li>
+          <li class="navbar-link"><a href="#">GALLERY</a>
+            <div class="dropdown">
+                <ul>
+                    <li class="dropdown1"><a href="http://127.0.0.1:5500/Projected%20Photos.html">PROJECTED PHOTOS</a></li>
+                    <li class="dropdown1"><a href="http://127.0.0.1:5500/Current%20Photos.html">CURRENT PHOTOS</a></li>
+                </ul>
+            </div>
+          </li>
+          <li class="navbar-link"><a href="#">CAREER</a></li>
+          <li class="navbar-link"><a href="#">CONTACT</a></li>
+          <li a class="navbar-link"><a href="./Sri Krishna Vilas.pdf" target="_blank"><button class="btn">Broucher</button></a></li>
+        </ul>
+      </nav>  
+      <div id="menu-btn" class="fas fa-bars"></div>    
+    </header>    
+    <section class="homesec1" data-aos="fade-in">
+      <div class="swiper-container homesec1_swiper_container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./images/slider1.jpg" class="img-fluid homesec1_banner_img">
+                <div class="text_container">
+                    <div class="heading">
+                        <h1> Think Green, Live Green</h1>
+                        <div class="subheading">
+                            <p>Fresh Air With 70% Open Surroundings</p>
+                                <a href="https://www.youtube.com/watch?v=3hNM2ulWbI4" target="_blank"><button class="btn">Watch Video</button></a>
+                                 <a href="https://digitour.housing.com/drone/shri_krishna_vilas_v03" target="_blank"><button class="btn">Digi Tour</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/slider3.jpg" class="img-fluid homesec1_banner_img">
+                <div class="text_container">
+                    <div class="heading">
+                        <h1>Properties in Varanasi</h1>
+                        <div class="subheading">
+                            <p>Premium design 1 BHK, 2 BHK, 3BHK flats </p>
+                                <a href="https://www.youtube.com/watch?v=3hNM2ulWbI4" target="_blank"><button class="btn">Watch Video</button></a>
+                                 <a href="https://digitour.housing.com/drone/shri_krishna_vilas_v03" target="_blank"><button class="btn">Digi Tour</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/slider2.jpg" class="img-fluid homesec1_banner_img">
+                <div class="text_container">
+                    <div class="heading">
+                        <h1>Sri Krishna Vilas</h1>
+                        <div class="subheading">
+                            <p>Apartments with premium amenties</p>
+                                <a href="https://www.youtube.com/watch?v=3hNM2ulWbI4" target="_blank"><button class="btn">Watch Video</button></a>
+                                 <a href="https://digitour.housing.com/drone/shri_krishna_vilas_v03" target="_blank"><button class="btn">Digi Tour</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          <!--<div class="swiper-slide slide" style="background: url(./slider001.jpg) no-repeat;">
+            <div class="content-text">
+              <h1>Flats in Varanasi</h1>
+              <p>Luxury apartments in Varanasi - UP</p>
+              <a href="https://www.youtube.com/watch?v=3hNM2ulWbI4" target="_blank"><button class="btn">Watch Video</button></a>
+              <a href="https://digitour.housing.com/drone/shri_krishna_vilas_v03" target="_blank"><button class="btn">Digi Tour</button></a>
+            </div>
+          </div>
+          <div class="swiper-slide slide" style="background: url(./slider3.jpg) no-repeat;">
+            <div class="content-text">
+              <h1>Properties in Varanasi</h1>
+              <p>Premium design 1 BHK, 2 BHK, 3BHK flats</p>
+              <a href="https://www.youtube.com/watch?v=3hNM2ulWbI4" target="_blank"><button class="btn">Watch Video</button></a>
+              <a href="https://digitour.housing.com/drone/shri_krishna_vilas_v03" target="_blank"><button class="btn">Digi Tour</button></a>
+            </div>
+          </div>
+          <div class="swiper-slide slide" style="background: url(./slider4.jpg) no-repeat;">
+            <div class="content-text">
+              <h1>Think Green, Live Green</h1>
+              <p>Fresh air with 70% green surroundings</p>
+              <a href="https://www.youtube.com/watch?v=3hNM2ulWbI4" target="_blank"><button class="btn">Watch Video</button></a>
+              <a href="https://digitour.housing.com/drone/shri_krishna_vilas_v03" target="_blank"><button class="btn">Digi Tour</button></a>
+            </div>
+          </div>
+
+        </div>
+        <!--<div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>-->
+      </div>
+    </section>
+
+
+    <main>
+      <section>
+        <div class="content-box">
+            <strong class="content-box1">About Us</strong>
+            <h6>At SIPL Group, We work with Trust, Ethics and Principles.</h6>
+            <p>SIPL has over 9 years of track record of sustained growth, customer satisfaction and innovation in
+            the field of Real Estate and Hospitality with successfully colonizing the living habitats in heart of
+            Varanasi. The company has its presence in Varanasi.
+            </p>
+            <p>
+            As the Tag line suggests, we believe in building trust, in all verticals of our organisation. We believe
+            in building trust through Quality construction, Investors relations, Customer relations, Employee
+            relations, Timely delivery, fulfilling commitments and/or any activities related to our field.
+            </p>
+            <p>
+            SIPL primary business is development of residential and commercial projects. The company has
+            an unique business model with earnings arising from development. SIPL is a name synonymous
+            with global standards, new generation living spaces and lifestyles. With the humble beginning in the holy city on bank of Ganges the Varanasi the group has
+            endeavoured in construction of high rise residential towers, commercial buildings and townships.</p>
+            <p>
+            We ensure that our efforts and actions impact the people at grass root level and the company is
+            able to cater to every stakeholder of the society. We are involved in many CSR activities ranging
+            across the spectrum of environment, art and cultural upbringing, rural empowerment etc. We have luxury flats, apartments & properties in varanasi.
+            </p>
+    
+            <div class="banner">
+            </div>
+            <div class="content-margin">
+                <div class="pt-5 pt-lg-0 page-content">
+                    <div class="banner2 d-flex">
+                        <div class="container about-bgy">
+                        </div>
+                    </div>
+                    <div class="banner3 d-flex flex-wrap align-items-center">
+                        <h2 class="text-center1 d-block w-100">Country Garden Corporate Culture</h2>
+                        <div class="mx-auto text-center d-flex align-items-center desktop">
+                            <div class="position-relative mx-auto" style="width: 360px;height: 360px;">
+                                <svg class="" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 360 360" xml:space="preserve">
+                            <g class="middle-layer">
+                                <path class="st0" d="M179.7,71.3c35.9,0,67.7,17.2,87.7,43.9c13.7,18.3,21.9,41.1,21.9,65.7c0,22.5-6.8,43.5-18.5,60.9"/>
+                                <path class="st0" d="M70.8,193.4c-0.5-4.1-0.7-8.2-0.7-12.5c0-29.9,11.9-56.9,31.3-76.7"/>
+                                <path class="st0" d="M179.7,290.5c-42,0-78.5-23.6-96.9-58.3"/>
+                            </g>
+            
+                            <g class="button-layer">
+                                <circle class="circle-layout" cx="180" cy="180" r="172"/>
+                                <circle class="st1" cx="180" cy="180" r="160"/>
+                                <circle class="st3 item prev" data-item="2" cx="42.5" cy="100.5" r="12"/>
+                                <circle class="st3 item next" data-item="1" cx="317.5" cy="100.5" r="12"/>
+                                <circle class="st4 item current" data-item="3" cx="180" cy="339" r="12"/>
+                            </g>
+    
+                            <g class="item-svg item-svg-3">
+                                <g><path class="st0" d="M149.4,152.8c-3.7,0-6.6-3-6.6-6.6s3-6.6,6.6-6.6c3.7,0,6.6,3,6.6,6.6S153,152.8,149.4,152.8z"/></g>
+                                <g><path class="st0" d="M205.1,152.8c-3.7,0-6.6-3-6.6-6.6s3-6.6,6.6-6.6c3.7,0,6.6,3,6.6,6.6S208.8,152.8,205.1,152.8z"/></g>
+                                
+                                <line class="st0 line" x1="113.5" y1="225.8" x2="245.8" y2="225.8"/>
+                                <line class="st0 line2" x1="113.5" y1="225.8" x2="245.8" y2="225.8"/>
+                                <line class="st0" x1="134.7" y1="220.5" x2="219.7" y2="220.5"/>
+                                <g>
+                                    <path class="st0" d="M142.3,164.7v23.3c0,0.3-0.3,0.6-0.6,0.6h-4.2c-0.3,0-0.6-0.3-0.6-0.6v-31.3h20.6l20-20.2l19.1,20.2h18.1
+                                        c1.8,0,3.3,1.5,3.3,3.3v28c0,0.3-0.3,0.6-0.6,0.6h-4c-0.3,0-0.6-0.3-0.6-0.6v-23.3"/>
+                                </g>
+                                <polyline class="st0" points="196.6,220 196.6,167.9 177.5,149 157.8,168.6 157.8,220 	"/>
+                                <line class="st0" x1="145.4" y1="186" x2="157.3" y2="186"/>
+                                <line class="st0" x1="197.4" y1="186" x2="209.4" y2="186"/>
+                                <line class="st0" x1="141.4" y1="192.6" x2="141.4" y2="220.5"/>
+                                <line class="st0" x1="212.8" y1="192.6" x2="212.8" y2="220.5"/>
+                                <line class="st0" x1="149.3" y1="190.4" x2="149.3" y2="220.5"/>
+                                <line class="st0" x1="204.9" y1="190.4" x2="204.9" y2="220.5"/>
+                                <polyline class="st0" points="165.1,219.5 165.1,210.7 188.9,210.7 188.9,219.5 	"/>
+                                <line class="st0" x1="177.2" y1="220.5" x2="177.2" y2="211.2"/>
+                                <line class="st2" x1="177" y1="156.8" x2="177" y2="162.1"/>
+                                <line class="st2" x1="177" y1="167.4" x2="177" y2="172.7"/>
+                                <line class="st2" x1="177" y1="175.3" x2="177" y2="180.6"/>
+                                <line class="st2" x1="177" y1="183.2" x2="177" y2="188.6"/>
+                                <line class="st2" x1="177" y1="191.2" x2="177" y2="196.5"/>
+                                <line class="st2" x1="177" y1="199.1" x2="177" y2="204.4"/>
+                                <line class="st2" x1="186.7" y1="167.4" x2="186.7" y2="172.7"/>
+                                <line class="st2" x1="186.7" y1="175.3" x2="186.7" y2="180.6"/>
+                                <line class="st2" x1="186.7" y1="183.2" x2="186.7" y2="188.6"/>
+                                <line class="st2" x1="186.7" y1="191.2" x2="186.7" y2="196.5"/>
+                                <line class="st2" x1="186.7" y1="199.1" x2="186.7" y2="204.4"/>
+                                <line class="st2" x1="167.3" y1="167.4" x2="167.3" y2="172.7"/>
+                                <line class="st2" x1="167.3" y1="175.3" x2="167.3" y2="180.6"/>
+                                <line class="st2" x1="167.3" y1="183.2" x2="167.3" y2="188.6"/>
+                                <line class="st2" x1="167.3" y1="191.2" x2="167.3" y2="196.5"/>
+                                <line class="st2" x1="167.3" y1="199.1" x2="167.3" y2="204.4"/>
+                                <line class="st0" x1="177.5" y1="136.6" x2="177.5" y2="149.9"/>
+                            </g>
+    
+                            <g class="item-svg item-svg-2">
+                                <path class="st0 heart" d="M180,176.6c-2.7-2.4-7-2.3-9.6,0.2c-1.3,1.3-2.1,3-2.1,4.8c0,1.8,0.7,3.5,2.1,4.8l8.5,8.1
+                                    c0.3,0.3,0.7,0.5,1.2,0.5s0.8-0.2,1.2-0.5l8.5-8.1c1.3-1.3,2.1-3,2.1-4.8c0-1.8-0.7-3.5-2.1-4.8c0,0,0,0,0,0
+                                    C187,174.3,182.7,174.2,180,176.6z"/>
+                                <path class="st0" d="M227,172.7h-15.9c-1.6,0-3-1.3-3-3v-21.9c0-1.6,1.3-3,3-3H227"/>
+                                <path class="st0" d="M191.3,158.9l-8.3-8.3c-2.1-2.1-5.4-2.1-7.5,0l0,0c-2.1,2.1-2.1,5.4,0,7.5l13.2,13.2h20.4"/>
+                                <line class="st0" x1="215.1" y1="144.9" x2="215.1" y2="172.7"/>
+                                <path class="st0" d="M208.2,147.3h-6l-19.4-9.6c-0.9-0.5-2-0.4-2.9,0.1l-35.4,20.9c-1.2,0.7-2,2-2,3.4v0c0,2.5,2.2,4.3,4.6,3.9
+                                    l31.1-5.2"/>
+                                <path class="st0" d="M133,195h15.9c1.6,0,3,1.3,3,3v21.9c0,1.6-1.3,3-3,3H133"/>
+                                <path class="st0" d="M168.7,208.9l8.3,8.3c2.1,2.1,5.4,2.1,7.5,0l0,0c2.1-2.1,2.1-5.4,0-7.5l-13.2-13.2h-20.4"/>
+                                <line class="st0" x1="144.9" y1="222.9" x2="144.9" y2="195"/>
+                                <path class="st0" d="M151.8,220.5h6l19.4,9.6c0.9,0.5,2,0.4,2.9-0.1l35.4-20.9c1.2-0.7,2-2,2-3.4l0,0c0-2.5-2.2-4.3-4.6-3.9
+                                    l-31.1,5.2"/>
+                                <path class="st0" d="M204.4,171.2c2,3.9,3.2,8.3,3.2,12.9c0,7.8-3.2,14.9-8.4,19.9"/>
+                                <path class="st0" d="M154.8,196.5c-1.8-3.7-2.9-7.9-2.9-12.3c0-8.1,3.5-15.4,9-20.5"/>
+                            </g>
+            
+                            <g  class="item-svg item-svg-1">
+                                <g>
+                                    <path class="st0 heart" d="M176.9,186.1l-0.8-0.5c-1.1-0.7-25.9-17.5-25.9-33.5c0-7.8,6.3-14.1,14.1-14.1c5.6,0,10.4,3.2,12.7,6.8
+                                        c2.3-3.7,7.1-6.8,12.7-6.8c7.8,0,14.1,6.3,14.1,14.1c0,16-24.9,32.8-25.9,33.5L176.9,186.1z"/>
+                                </g>
+                                <g>
+                                    <path class="st0" d="M188.2,199.9c-3.6,0-7-3.4-7-7c0-5.9,8-12.7,18.3-12.7h1.4v1.4C200.8,191.9,194,199.9,188.2,199.9z"/>
+                                </g>
+                                <g>
+                                    <path class="st0" d="M165.7,213.9c-5.9,0-12.7-8-12.7-18.3v-1.4h1.4c10.3,0,18.3,6.8,18.3,12.7
+                                        C172.7,210.5,169.3,213.9,165.7,213.9z"/>
+                                </g>
+                            
+                                <line class="st0" x1="200.8" y1="219.6" x2="225.7" y2="219.6"/>
+                                <line class="st0" x1="120.7" y1="219.6" x2="131.4" y2="219.6"/>
+                                <line class="st0" x1="176.9" y1="170.3" x2="176.9" y2="227"/>
+                                <line class="st0" x1="137.5" y1="226.6" x2="216" y2="226.6"/>
+                                <line class="st0" x1="191" y1="190" x2="176.8" y2="204.1"/>
+                                <line class="st0" x1="162.9" y1="204.1" x2="176.8" y2="218"/>
+                                
+                                
+                            </g>
+                        </svg>
+                                <div class="svg-next-text position-absolute"></div>
+                                <div class="svg-prev-text position-absolute"></div>
+                            </div>
+                            <h3 class="current-text text-center svg-text"></h3>
+                            <p class="text-center svg-desc"></p>
+                        </div>
+    
+                        <div class="mx-auto mobile">
+                            <div class="text-center mt-4 item-svg-1">
+                                <svg class="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+                            <g>
+                                <path class="cls-12 heart" d="M190.22,192.8,188,191.41c-3-1.93-71.53-48.33-71.53-92.52a38.9,38.9,0,0,1,38.94-38.94c15.47,0,28.72,8.84,35.08,18.78,6.35-10.22,19.61-18.78,35.08-18.78a38.9,38.9,0,0,1,38.94,38.94c0,44.19-68.77,90.59-71.53,92.52Z"/>
+                                <path class="cls-12" d="M221.43,230.91c-9.94,0-19.33-9.39-19.33-19.33,0-16.3,22.1-35.08,50.54-35.08h3.87v3.87C256.23,208.81,237.45,230.91,221.43,230.91Z"/>
+                                <path class="cls-12" d="M159.29,269.58c-16.3,0-35.08-22.1-35.08-50.54v-3.87h3.87c28.45,0,50.54,18.78,50.54,35.08C178.62,260.19,169.23,269.58,159.29,269.58Z"/>
+                                <line class="cls-12" x1="256.23" y1="285.32" x2="325" y2="285.32"/>
+                                <line class="cls-12" x1="35" y1="285.32" x2="64.55" y2="285.32"/>
+                                <line class="cls-12" x1="190.22" y1="149.16" x2="190.22" y2="305.76"/>
+                                <line class="cls-12" x1="81.4" y1="304.65" x2="298.21" y2="304.65"/>
+                                <line class="cls-12" x1="229.16" y1="203.57" x2="189.94" y2="242.51"/>
+                                <line class="cls-12" x1="151.55" y1="242.51" x2="189.94" y2="280.9"/>
+                            </g>
+                        </svg>
+                                <h3 class="current-text text-center svg-text">Core Value</h3>
+                                <p class="text-center svg-desc">To shape a prosperous future through our conscience and social responsibility awareness</p>
+                            </div>
+                            <div class="text-center mt-4 item-svg-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+                            <g>
+                                <path class="cls-1" d="M97.69,104.39a18,18,0,1,1,18-18A17.94,17.94,0,0,1,97.69,104.39Z"/>
+                                <path class="cls-1" d="M249.25,104.39a18,18,0,1,1,18-18A17.94,17.94,0,0,1,249.25,104.39Z"/>
+                                <line class="cls-1" x1="57.69" y1="288.6" x2="288.98" y2="288.6"/>
+                                <line class="cls-1 line" y1="303.02" x2="360" y2="303.02"/>
+                                <line class="cls-1 line2" y1="303.02" x2="360" y2="303.02"/>
+                                <path class="cls-1" d="M78.37,136.77v63.4a1.76,1.76,0,0,1-1.63,1.63H65.31a1.76,1.76,0,0,1-1.63-1.63V115h56.05l54.42-55,52,55h49.25a9.06,9.06,0,0,1,9,9v76.19a1.76,1.76,0,0,1-1.63,1.63H271.84a1.76,1.76,0,0,1-1.63-1.63v-63.4"/>
+                                <polyline class="cls-1" points="226.12 287.24 226.12 145.48 174.15 94.05 120.54 147.38 120.54 287.24"/>
+                                <line class="cls-1" x1="86.8" y1="194.72" x2="119.18" y2="194.72"/>
+                                <line class="cls-1" x1="228.3" y1="194.72" x2="260.95" y2="194.72"/>
+                                <line class="cls-1" x1="75.92" y1="212.68" x2="75.92" y2="288.6"/>
+                                <line class="cls-1" x1="270.2" y1="212.68" x2="270.2" y2="288.6"/>
+                                <line class="cls-1" x1="97.41" y1="206.7" x2="97.41" y2="288.6"/>
+                                <line class="cls-1" x1="248.71" y1="206.7" x2="248.71" y2="288.6"/>
+                                <polyline class="cls-1" points="140.41 285.88 140.41 261.93 205.17 261.93 205.17 285.88"/>
+                                <line class="cls-1" x1="173.33" y1="288.6" x2="173.33" y2="263.29"/>
+                                <line class="cls-2" x1="172.79" y1="115.27" x2="172.79" y2="129.69"/>
+                                <line class="cls-2" x1="172.79" y1="144.12" x2="172.79" y2="158.54"/>
+                                <line class="cls-2" x1="172.79" y1="165.61" x2="172.79" y2="180.03"/>
+                                <line class="cls-2" x1="172.79" y1="187.11" x2="172.79" y2="201.8"/>
+                                <line class="cls-2" x1="172.79" y1="208.87" x2="172.79" y2="223.29"/>
+                                <line class="cls-2" x1="172.79" y1="230.37" x2="172.79" y2="244.79"/>
+                                <line class="cls-2" x1="199.18" y1="144.12" x2="199.18" y2="158.54"/>
+                                <line class="cls-2" x1="199.18" y1="165.61" x2="199.18" y2="180.03"/>
+                                <line class="cls-2" x1="199.18" y1="187.11" x2="199.18" y2="201.8"/>
+                                <line class="cls-2" x1="199.18" y1="208.87" x2="199.18" y2="223.29"/>
+                                <line class="cls-2" x1="199.18" y1="230.37" x2="199.18" y2="244.79"/>
+                                <line class="cls-2" x1="146.39" y1="144.12" x2="146.39" y2="158.54"/>
+                                <line class="cls-2" x1="146.39" y1="165.61" x2="146.39" y2="180.03"/>
+                                <line class="cls-2" x1="146.39" y1="187.11" x2="146.39" y2="201.8"/>
+                                <line class="cls-2" x1="146.39" y1="208.87" x2="146.39" y2="223.29"/>
+                                <line class="cls-2" x1="146.39" y1="230.37" x2="146.39" y2="244.79"/>
+                                <line class="cls-1" x1="174.15" y1="60.31" x2="174.15" y2="96.5"/>
+                            </g>
+                            </svg>
+    
+                                <h3 class="current-text text-center svg-text">Corporate Mission</h3>
+                                <p class="text-center svg-desc">To create a better society with our existence</p>
+                            </div>
+                            <div class="text-center mt-4 item-svg-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+                            <g>
+                                <path class="cls-12 heart" d="M180,157.39a21.26,21.26,0,0,0-28.39.59,20.22,20.22,0,0,0-6.21,14.2,19.07,19.07,0,0,0,6.21,14.2l25.14,24a4.9,4.9,0,0,0,3.55,1.48,5.46,5.46,0,0,0,3.55-1.48l25.14-24a20.22,20.22,0,0,0,6.21-14.2A19.07,19.07,0,0,0,209,158h0C200.7,150.59,188,150.3,180,157.39Z"/>
+                                <g>
+                                <path class="cls-12" d="M360,145.86H272A8.9,8.9,0,0,1,263.1,137V72.22A8.9,8.9,0,0,1,272,63.35h88"/>
+                                <path class="cls-12" d="M213.42,105,188.87,80.5a15.53,15.53,0,0,0-22.18,0h0a15.53,15.53,0,0,0,0,22.18l39,39h60.33"/>
+                                <line class="cls-12" x1="283.81" y1="63.64" x2="283.81" y2="145.86"/>
+                                <path class="cls-12" d="M263.4,70.74H245.66L188.28,42.35a8.86,8.86,0,0,0-8.58.3L75,104.46a11.81,11.81,0,0,0-5.91,10.06h0A11.61,11.61,0,0,0,82.7,126l92-15.38"/>
+                                <path class="cls-12" d="M0,211.81H88a8.9,8.9,0,0,1,8.87,8.87v64.77A8.9,8.9,0,0,1,88,294.32H0"/>
+                                <path class="cls-12" d="M146.58,252.92l24.55,24.55a15.53,15.53,0,0,0,22.18,0h0a15.53,15.53,0,0,0,0-22.18l-39-39H93.94"/>
+                                <line class="cls-12" x1="76.19" y1="294.32" x2="76.19" y2="211.81"/>
+                                <path class="cls-12" d="M96.6,287.23h17.74l57.37,28.39a8.86,8.86,0,0,0,8.58-.3L285,253.51a11.81,11.81,0,0,0,5.91-10.06h0a11.61,11.61,0,0,0-13.6-11.53l-92,15.38"/>
+                                <path class="cls-12" d="M252.16,141.42a83.7,83.7,0,0,1,9.46,38.15,81.46,81.46,0,0,1-24.84,58.85"/>
+                                <path class="cls-12" d="M105.47,216.25a82,82,0,0,1,18-97"/>
+                                </g>
+                            </g>
+                        </svg>
+                                <h3 class="current-text text-center svg-text">Corporate Spirit</h3>
+                                <p class="text-center svg-desc">To benefit people and the society</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+      </main>
+  <footer>
+      <div class="row">
+          <div class="col">
+              <img src="./skv color logo-03.png" alt="Logo">
+              <p>By aiming to take the life quality to an upper level with the whole realized Projects, Shreemaa Infrarealty Pvt. Ltd. continues to be the address of luxury.</p>
+          </div>
+          <div class="col">
+              <h3>Registered Office <div class="underline"><span></span></div></h3>
+              <p>B-30/251, Nagwa, Lanka,
+              Varanasi Uttar Pradesh ‐ 221005</p>
+          </div>
+          <div class="col">
+              <h3>Corporate Office <div class="underline"><span></span></div></h3>
+              <p>Plot survey no - 529 A&B, Lahartara- Bhitari Road, Bhitari Varanasi - 221107</p>
+          </div>
+          <div class="col">
+              <h3>Helpdesk <div class="underline"><span></span></div></h3>
+              <h4 class="tel">0542-4000511</h4>
+              <p class="email-id">email@sipl.one</p>
+              <div class="social-icons">
+                  <a href="https://www.facebook.com/shreemaainfrarealty/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                  <a href="https://twitter.com/ShreemaaInfra/" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+                  <a href="https://www.linkedin.com/in/shreemaa-infrarealty-2748791b9/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                  <a href="https://www.instagram.com/shreemaa_infrarealty/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                  <a href="https://www.youtube.com/channel/UCfCEPQEFFIk7kyQ0Eieg4hQ" target="_blank"><i class="fa-brands fa-square-youtube"></i></a>              
+              </div>
+          </div>
+      </div>
+      <hr>
+      <p class="copyright">Disclaimer* - All photos are for representative purpose only.
+          © 2023 | Shreemaa Infrarealty Pvt. Ltd., All Rights Reserved</p>
+    </div>
+  </footer>
+  </section>
+      <script src="https://countrygardenhk.com/js/main.js"></script>
+  <script src="https://use.typekit.net/ryw8drc.js"></script>
+ 
+  <script src="https://countrygardenhk.com/js/main.js"></script>
+  <script src="https://use.typekit.net/ryw8drc.js"></script>
+  <script>
+      $(function() {
+
+          var controller = new ScrollMagic.Controller();
+          var offset = $('.about-bgy').offset().top - $(window).height() / 2;
+          var scene = new ScrollMagic.Scene({
+                  duration: 500,
+                  offset: offset
+              })
+              .on('start', function(e) {
+                  TweenMax.to($(".about-bgy .image "), 0.5, {
+                      x: '0%',
+                      opacity: 1
+                  });
+              })
+              //.addIndicators({name: "first"})
+              .addTo(controller);
+
+          //***** SVG Effect *****//
+          // svg text data
+          var item_content = {
+              1: {
+                  'title': 'Core Value',
+                  'desc': 'To shape a prosperous future through our conscience and social responsibility awareness',
+              },
+              2: {
+                  'title': 'Corporate Spirit',
+                  'desc': 'To benefit people and the society',
+              },
+              3: {
+                  'title': 'Corporate Mission',
+                  'desc': 'To create a better society with our existence',
+              },
+          }
+
+          var current_item = 1,
+              rotate = 0,
+              animateTime = 10,
+              desktop = false,
+              autoplayTimeout = null;
+
+          function calcItem(item) {
+              if (item < 1) {
+                  return 3;
+              }
+              if (item > 3) {
+                  return 1;
+              }
+              return item;
+          }
+
+          function appendText(current_item) {
+
+              var prev, next;
+              prev = calcItem(current_item - 1);
+              next = calcItem(current_item + 1);
+
+              TweenMax.set($(".banner3 .desktop .svg-text, .banner3 .desktop  .svg-desc, .banner3 .desktop  .svg-prev-text, .banner3 .desktop  .svg-next-text"), {
+                  opacity: 0
+              });
+
+              $('.banner3 .desktop  .svg-text').html(item_content[current_item]['title']);
+              $('.banner3 .desktop  .svg-desc').html(item_content[current_item]['desc']);
+
+              $('.banner3 .desktop  .item.next').data('item');
+              $('.banner3 .desktop  .svg-prev-text').html(item_content[prev]['title'])
+              $('.banner3 .desktop  .svg-next-text').html(item_content[next]['title'])
+
+              TweenMax.to($(".banner3 .desktop .svg-text,.banner3 .desktop .svg-desc,.banner3 .desktop .svg-prev-text,.banner3 .desktop .svg-next-text"), 4, {
+                  opacity: 1,
+                  delay: 1,
+                  ease: Power4.easeOut
+              });
+              TweenMax.to($(".banner3 .desktop .item-svg"), 0.5, {
+                  opacity: 0,
+                  visibility: 'hidden'
+              });
+              TweenMax.to($(".banner3 .desktop .item-svg-" + current_item), 1, {
+                  opacity: 1,
+                  visibility: 'visible',
+                  delay: 0.7
+              });
+          }
+
+          function svg_animate(rotate, oj) {
+              TweenMax.to($(".button-layer"), 1, {
+                  rotation: rotate,
+                  transformOrigin: "center center"
+              });
+              // TweenMax.to( $(".middle-layer") , 1,  {  rotation : rotate * -1, transformOrigin:"center center" });
+              $('.item').css({
+                  'fill': '#EDAE1B'
+              });
+              //oj.css({'fill':'#2286A5'});
+          }
+
+          function autoplay() {
+              if (current_item == 4) {
+                  current_item = 1;
+              }
+              rotate += 120;
+
+              $(this).removeClass('prev next').addClass('current');
+
+              svg_animate(rotate, $("[data-item='" + current_item + "']"));
+              appendText(current_item);
+              current_item++;
+              autoplayTimeout = setTimeout(function() {
+                  autoplay();
+              }, animateTime * 1000);
+          }
+
+          function desktop_init() {
+              if ($(window).width() > 768) {
+                  autoplay();
+              }
+          }
+
+          appendText(current_item);
+          desktop_init();
+
+          $(window).resize(function() {
+              current_item = 1;
+              clearTimeout(autoplayTimeout);
+              TweenMax.set($(".desktop .item-svg"), {
+                  opacity: 0,
+                  visibility: 'hidden'
+              });
+              appendText(current_item);
+              desktop_init();
+          });
+
+
+          $('.open-wechat').on('click', function(e) {
+              if ($('body').hasClass('mobile')) {
+                  e.preventDefault();
+                  $('.qr-code').toggleClass('show');
+              }
+          });
+
+          // loop svg animate
+          TweenMax.to($('dasktop .middle-layer'), 5, {
+              rotation: '-360',
+              transformOrigin: 'center center',
+              ease: Linear.easeNone,
+              repeat: -1
+          });
+
+          TweenMax.to($('.item-svg-1 .heart'), 3, {
+              strokeDashoffset: 0,
+              ease: Linear.easeNone,
+              repeat: -1
+          });
+          TweenMax.to($('.item-svg-2 .heart'), 2, {
+              strokeDashoffset: 0,
+              ease: Linear.easeNone,
+              repeat: -1
+          });
+
+          TweenMax.to($('.desktop .item-svg-3 .line'), 2.5, {
+              strokeDashoffset: 80,
+              ease: Linear.easeNone,
+              repeat: -1
+          });
+          TweenMax.to($('.desktop .item-svg-3 .line2'), 2, {
+              strokeDashoffset: 60,
+              ease: Linear.easeNone,
+              repeat: -1
+          });
+
+          TweenMax.to($('.mobile .item-svg-3 .line'), 3.5, {
+              strokeDashoffset: 230,
+              ease: Linear.easeNone,
+              repeat: -1
+          });
+          TweenMax.to($('.mobile .item-svg-3 .line2'), 2, {
+              strokeDashoffset: 120,
+              ease: Linear.easeNone,
+              repeat: -1
+          });
+      })
+  </script>
+    </main>
+
+
+    <!-- ======================================== 
+          Our JavaScript Section Start  
+    ========================================  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
